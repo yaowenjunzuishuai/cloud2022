@@ -41,7 +41,7 @@ public class PaymentController {
         if (payment != null) {
             return new CommonResult(200, "查询成功,serverPort:"+serverPort, payment);
         } else {
-            return new CommonResult(201, "查询数据失败查询id为：" + id, null);
+            return new CommonResult(201, "查询失败查询id为：" + id, null);
         }
     }
 
