@@ -41,7 +41,7 @@ public class PaymentController {
         if (payment != null) {
             return new CommonResult(200, "查询成功,serverPort:"+serverPort, payment);
         } else {
-            return new CommonResult(201, "查询数据的id为：" + id, null);
+            return new CommonResult(201, "查询嬲你妈妈憋傻逼东西的你奶奶的id为：" + id, null);
         }
     }
 
